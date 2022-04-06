@@ -1,0 +1,144 @@
+
+header{
+    background-color: white;
+}
+body{
+    background-color: #dfe1ea;
+}
+html, body, ul {      /* aqui o que importa é o UL, o resto é pra estética do demo.          */
+    position:relative;  /* reset do position, não relacionado ao demo, mas bom pra uso geral.  */
+    margin:0;           /* Zeramos as margens e o padding do UL para as células.encostarem     */
+    padding:0;
+    width:100%;         /* por default, os blocos são 100%, mas vamos garantir isso.           */
+    height:100%;        /* aqui foi feito pra fins de demonstração apenas.                     */
+  }
+.container{
+    max-width: 1200px;
+    margin: 0 auto; /* Centralizando o conteúdo*/
+  }
+
+  .menu{
+    background: #ffffff;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu-flex{
+      display: flex;
+      align-items: center;
+     
+  }
+
+  .menu-column{
+      display: flex;
+      align-items: center;
+      width: 50%;
+      justify-content: flex-start;
+      font-family: 'Inter', sans-serif;
+  }
+
+  .menu-column.menu-second-column{
+      justify-content:flex-end;
+  }
+
+  .menu-nav ul {
+      display: flex;
+      list-style: none;
+      gap:10px;
+      margin-left: 50px;
+  }
+
+  .menu-nav ul li a {
+    text-decoration: none;
+    color: #585e65;
+  }
+
+  .menu-link-button {
+      text-decoration: none;
+      height: 48px;
+      background-color: #4c6ef5;
+      color: #fff;
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      border-radius: 4px;
+  }
+
+  .products-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+
+ .itens ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5px #dfe1ea;
+
+    
+ }
+
+.itens ul li{
+    
+    padding-left: 43px;
+    padding-right: 43px;
+    margin:10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 374px;
+    height: 500px;
+    left: 524px;
+    top: 114px;
+    background: white;
+    border-radius: 8px;
+  }
+
+.imagem{
+    width: 282px;
+    height: 207px;
+    display: flex;
+
+    
+}
+.descricao{
+    width: 335px;
+    height: 56px;
+    left: 151px;
+    top: 410px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+
+}
+
+button{
+    font-family: 'Inter', sans-serif;
+    background-color: #4C6EF5;
+    color: white;
+    border: 1.5px solid #4C6EF5;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 335px;
+    height: 48px;
+    left: 1333px;
+    top: 540px;
+}
+button:hover{
+    
+}
